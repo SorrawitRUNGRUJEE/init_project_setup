@@ -1,3 +1,4 @@
+@import './index.scss';
 $header-height: 60px;
 $sidebar-width: 300px;
 
@@ -15,7 +16,7 @@ $sidebar-width: 300px;
         grid-row: 1/2;
         grid-column: 1/-1;
         // background-color: #310909;
-        border: solid black 1px;
+        // border: solid black 1px;
         
         }
 
@@ -26,7 +27,7 @@ $sidebar-width: 300px;
             // grid-column-end: 2;
             grid-row: 2/-1;
             grid-column: 1 / span 1;
-            border: solid black 1px;
+            // border: solid $primary 1px;
             // background-color: blue;
         }
         
@@ -37,13 +38,15 @@ $sidebar-width: 300px;
             // grid-column-end: -1;
             grid-row: 2/-1;
             grid-column: 2/-1;
-            border: solid black 1px;
+            // border: solid black 1px;
             // background-color: rgb(162, 183, 131);
         
         }
 
 
 }
+
+
 
 
 
